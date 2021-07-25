@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+<h1 align="center">
+    Cadastro de Produtos Hiring Coders
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Criptograma-1/Cadastro-e-commerce?color=%2304D361" />
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Criptograma-1/Cadastro-e-commerce" />
+  <a href="https://github.com/Criptograma-1/Cadastro-e-commerce/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Criptograma-1/Cadastro-e-commerce" />
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen" />  
+ </p>
+ 
 
-In the project directory, you can run:
+<h4 align="center"> 
+	🚧  Cadastro E-commerce | Hiring Coders 🚀 Concluido 🚧
+</h4>
 
-### `yarn start`
+<img alt="Layout" title="#Layout" src="./src/assets/img/layout.png"  />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 💻 Sobre o projeto
 
-### `yarn test`
+Site de cadastramento para e-commerce Desafio 2# - Gestão de Cadastros.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O desafio:
+- Criação de um sistema e-commerce para inventário de produtos e dados de clientes.
 
-### `yarn build`
+Requisitos do desafio:
+- Os dados de clientes, endereços e produtos devem estar devidamente estruturados;
+- Dados no localstorage;
+ -Código fonte no github com o arquivo README detalhando as funcionalidades da programação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Projeto desenvolvido durante o treinamento [**Hiring Coders #2**](https://www.hiringcoders.com.br/) oferecida pela [VTEX](https://vtex.com/br-pt/) em parceria com a [Gama Academy](https://www.gama.academy/).
+O Hiring Coders é um programa de capacitação gratuito e sem pré-requisitos, feito para todos que querem uma carreira à prova do futuro.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### [Teste o site](https://cadastro-e-commerce.vercel.app/)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ⚙️ Funcionalidades
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] Página Home
+  - [x] Botão de entrar que leva a página de Login
+- [x] Página Login
+  - [x] Fomulário com entrada para email e senha do funcionário
+- [x] Página Seus Produtos
+  - [x] Exibe os produtos já cadastrados
+  - [x] Botão de cadastrar novos produtos
+  - [x] Botão de remover produtos cadastrados
+- [x] Página Produtos
+  - [x] Formulário para cadastrar produtos
+  - [x] Dados: nome, preço e preço de promoção, descrição, quantidade em estoque, categoria e foto.
+  - [X] Dados armazenados no localstorage e exibidos na página "Seus Produtos"
+- [x] Página Seus Clientes
+  - [x] Exibe os clientes já cadastrados
+  - [x] Botão de cadastrar novos clientes
+  - [x] Botão de remover clientes cadastrados
+- [x] Página Clientes
+  - [x] Formulário para cadastrar clientes
+  - [x] Dados: nome, telefone, endereço, email e foto.
+  - [X] Dados armazenados no localstorage e exibidos na página "Seus Clientes"
+- [x] Barra de navegação com link das páginas
+- [x] Hospedagem no Vercel
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 🛠 Tecnologias
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+As seguintes ferramentas/linguagens foram usadas na construção do projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Javascript
+- CSS
+- React
+- React-Router-DOM
+- Styled-Components
+- React-icons
 
-### Code Splitting
+Para mais informações leia o arquivo package.json
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🎲 Configurando e rodando a aplicação
 
-### Analyzing the Bundle Size
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Clone este repositório
+$ git clone git@github.com:Criptograma-1/Cadastro-e-commerce.git
 
-### Making a Progressive Web App
+# Instale as dependências
+$ yarn install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Inicie a aplicação
+$ yarn start
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🦸 Autora
 
-### Deployment
+<a href="https://app.rocketseat.com.br/me/andresa-cristina-01103">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/81261737?v=4" width="100px;" alt=""/>
+ <br />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ [![Linkedin Badge](https://img.shields.io/badge/-Andresa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andresa-cristina/)](https://www.linkedin.com/in/andresa-cristina/) 
+[![Gmail Badge](https://img.shields.io/badge/-andresa.info@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:andresa.info@gmail.com)](mailto:andresa.info@gmail.com)
 
-### `yarn build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Criptograma 👋🏽 [Entre em contato!](https://www.linkedin.com/in/andresa-cristina/)
+
+---
