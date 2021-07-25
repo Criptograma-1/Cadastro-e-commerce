@@ -3,12 +3,18 @@ import { FaMapMarkerAlt, FaFacebookSquare, FaInstagram, FaTwitter, FaLinkedin } 
 import { AiTwotonePhone, AiTwotoneMail } from 'react-icons/ai';
 import { RiSendPlaneFill } from 'react-icons/ri';
 
+import logo from "../../assets/img/logo.png";
+import footer1 from "../../assets/img/footer1.jfif"
+import footer2 from "../../assets/img/footer2.jfif"
+import footer3 from "../../assets/img/footer3.jfif"
+import footer4 from "../../assets/img/footer4.jfif"
+
 function Footer() {
   return (
     <div className="container">
       <div className="section">
         <div className="description">
-          <img src="https://cdn.shopify.com/s/files/1/0035/5673/7059/files/logo_180x.png" width="150px" alt="" />
+          <img src={logo} width="150px" alt="" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Accusamus neque tempora, labore cupiditate, assumenda animi voluptatum
@@ -38,10 +44,10 @@ function Footer() {
         <div className="subsection">
           <h3 style={{ textAlign: "center" }}>NOSSA GALERIA</h3>
           <div>
-            <img width="100px" src="https://images.unsplash.com/photo-1570211776086-5836c8b1e75f" alt="" />
-            <img width="100px" src="https://images.unsplash.com/photo-1529960754461-39a553fc17b9" alt="" />
-            <img width="100px" src="https://images.unsplash.com/photo-1515121240746-1fc801ba75a8" alt="" />
-            <img width="100px" src="https://images.unsplash.com/photo-1620289357173-54b11ed23f9f" alt="" />
+            <img width="100px" src={footer1} alt="" />
+            <img width="100px" src={footer2} alt="" />
+            <img width="100px" src={footer3} alt="" />
+            <img width="100px" src={footer4} alt="" />
           </div>
         </div>
         <div className="subsection">

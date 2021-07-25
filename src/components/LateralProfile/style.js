@@ -36,6 +36,11 @@ export const Container = styled.div`
     font-weight: 600;
     margin-left: 5vh;
   }
+  .subtitle {
+    font-size: 2vh;
+    font-weight: 600;
+    margin-left: 5vh;
+  }
   .color {
     width: 40px;
     height: 40px;

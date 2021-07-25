@@ -25,8 +25,8 @@ function Clientes() {
 <PageContainer>
 <Background>   
       <div className="titulo">
-        <h1>CLIENTES</h1>
-        <h3>Home - Clientes</h3>
+        <h1>SEUS CLIENTES</h1>
+        <h3>Home - Seus clientes</h3>
       </div>
     </Background>
   <PageContent>
@@ -44,6 +44,7 @@ function Clientes() {
                     <li><p><span>Cliente: </span>{item.nome}</p></li>
                     <li><p><span>E-mail: </span> {item.email}</p></li>
                     <li><p><span>Telefone: </span> {item.telefone}</p></li>
+                    <li><p><span>Endereço: </span> {item.endereco}</p></li>
                   </ul>
                   <div className="remove">
                     <button onClick={()=>{removerCliente(item.id)}}>Remover</button>

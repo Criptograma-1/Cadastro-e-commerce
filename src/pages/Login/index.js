@@ -2,7 +2,7 @@ import './style.css';
 
 function Login() {
   return (
-            <div className="form">
+            <div className="login">
               <div className="title">
                 <h3>LOGIN</h3>
               </div>

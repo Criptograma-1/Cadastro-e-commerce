@@ -12,6 +12,7 @@ function CadastroCliente() {
   const [senha, setSenha] = useState('');
   const [foto, setFoto] = useState('');
   const [telefone, setTelefone] = useState('');
+  const [endereco, setEndereco] = useState('');
  
   function handleForm(e){
     e.preventDefault();
@@ -19,9 +20,9 @@ function CadastroCliente() {
       id: clientes.length + 1,
       nome: nome,
       email: email,
-      senha: senha,
       foto: foto,
-      telefone: telefone
+      telefone: telefone,
+      endereco: endereco
     }
     const newClientes = [...clientes, cliente];
     setClientes(newClientes);
@@ -48,13 +49,13 @@ function CadastroCliente() {
     <>
     <div className="Background">
     <div className="titulo">
-        <h1>JUNTE-SE</h1>
-        <h3>Home - Junte-se</h3>
+        <h1>CLIENTES</h1>
+        <h3>Home - Clientes</h3>
       </div>
     </div>
             <div className="form">
               <div className="title">
-                <h3>SEUS DADOS</h3>
+                <h3>CADASTRE SEUS CLIENTES</h3>
               </div>
               <form id="form" onSubmit={handleForm}>
                 <label htmlFor="name">NOME:</label>
@@ -88,12 +89,12 @@ function CadastroCliente() {
                   placeholder="Digite seu telefone"
                 />
                 
-                <label htmlFor="password">SENHA:</label>
+                <label htmlFor="endereco">ENDEREÇO:</label>
                 <input 
-                  type="password" name="password" id="password" 
-                  value={senha} 
-                  onChange={e => setSenha(e.target.value)}  
-                  placeholder="Digite sua senha" />
+                  type="text" name="endereco" id="endereco" 
+                  value={endereco} 
+                  onChange={e => setEndereco(e.target.value)}  
+                  placeholder="Digite seu endereço" />
                 
                 <button type="submit" >CADASTRAR</button>
               </form>

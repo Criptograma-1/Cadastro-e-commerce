@@ -1,5 +1,5 @@
 import { Container, Title } from "./style";
-
+import profile from "../../assets/img/profile.png"
 
 function LateralProfile() {
   return (
@@ -8,12 +8,13 @@ function LateralProfile() {
         <h3>Profile</h3>
       </Title>
       <div>
-          <p className="title">Bem vindo(a)</p>
+          <p className="title">Olá, vendedor(a)</p>
           <div className="checkbox">
-              <img src="https://cdn.shopify.com/s/files/1/0271/0536/1973/files/G4_600x600.png" alt="foto" width="200px"/>
+              <img src={profile} alt="foto" width="200px"/>
           </div>
 
           <p className="title">Andresa Cristina</p>
+          <p className="subtitle">Bem vindo(a) a sua página de clientes</p>
         </div>
     </ Container>
   );

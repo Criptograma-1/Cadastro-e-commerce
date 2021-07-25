@@ -1,6 +1,7 @@
 import './style.css';
 import { GoSearch } from 'react-icons/go';
 import { FaShoppingCart, FaAngleDown } from 'react-icons/fa'
+import logo from "../../assets/img/logo.png";
 
 function Header() {
   return (
@@ -19,7 +20,7 @@ function Header() {
           </div>
         </div>
         <div id="center" className="content">
-          <img src="https://cdn.shopify.com/s/files/1/0035/5673/7059/files/logo_180x.png?v=1612343375" alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         <div className="content-last">
           <div className="border">
@@ -29,7 +30,6 @@ function Header() {
             <a id="profile" href="">Perfil <FaAngleDown/></a>
             <div className="hidden">
               <a href="/login">Entrar</a>
-              <a href="/novocliente">Junte-se</a>
             </div>
           </div>
           <div>
@@ -42,10 +42,10 @@ function Header() {
       <div className="menu">
         <div >
           <a href="/">HOME</a>
-          <a href="/produtos">PRODUTOS</a>
-          <a href="/novoproduto">CADASTRAR</a>
-          <a href="/cliente">CLIENTES</a>
-          <a href="/novocliente">JUNTE-SE</a>
+          <a href="/produtos">SEUS PRODUTOS</a>
+          <a href="/novoproduto">PRODUTOS</a>
+          <a href="/cliente">SEUS CLIENTES</a>
+          <a href="/novocliente">CLIENTES</a>
         </div>
       </div>
     </ div>

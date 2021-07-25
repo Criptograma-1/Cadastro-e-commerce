@@ -52,12 +52,12 @@ export default function NovoProduto() {
     <>
     <Background>   
       <div className="titulo">
-        <h1>CADASTRAR</h1>
-        <h3>Home - Cadastrar</h3>
+        <h1>PRODUTOS</h1>
+        <h3>Home - Produtos</h3>
       </div>
     </Background>
       <Formulario>
-        <h3>DADOS DO PRODUTO</h3>
+        <h3>CADASTRE SEUS PRODUTOS</h3>
           <form onSubmit={handleForm}>
               <label htmlFor="nome">Nome: </label>
               <input type="text" id="nome" 
@@ -76,7 +76,7 @@ export default function NovoProduto() {
                 <label htmlFor="categoria">Categoria: </label>
                 <select id="categoria" value={categoria} onChange={e => setCategoria(e.target.value)} >
                   <option value="Masculino">Masculino</option>
-                  <option value="Feminino">Feminino</option>
+                  <option value="Feminina">Feminina</option>
                   <option value="Infantil">Infantil</option>
                 </select>
                 <label htmlFor="valorantigo">Preço anterior: </label>

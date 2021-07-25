@@ -138,6 +138,9 @@ export const Products = styled.div`
     color:  #666;
     text-decoration: line-through;
     }
+    .text {
+      color:  #666;
+    }
     
   }
 `

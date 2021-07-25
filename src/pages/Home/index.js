@@ -6,7 +6,7 @@ const Home = () =>{
     <div className="banner">
       <div className="titulo1">
         <h1>FASHION LIFE</h1>
-        <Link to="/novocliente" className="novoCliente"><p>Cadastre-se</p></Link>
+        <Link to="/login" className="novoCliente"><p>ENTRAR</p></Link>
         </div>
     </div>
   );

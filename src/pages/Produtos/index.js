@@ -24,8 +24,8 @@ function Produtos() {
 <PageContainer>
 <Background>   
       <div className="titulo">
-        <h1>PRODUTOS</h1>
-        <h3>Home - Produtos</h3>
+        <h1>SEUS PRODUTOS</h1>
+        <h3>Home - Seus produtos</h3>
       </div>
     </Background>
   <PageContent>
@@ -48,7 +48,10 @@ function Produtos() {
                   </div>
                   <div className="info">
                     <h4>{item.nome}</h4>
+                    <p className="text">{item.categoria}</p>
+                    <p className="text">{item.descricao}</p>
                     <p><small>R$ {item.valorantigo} </small>R$ {item.valor}</p>
+                    <p className="text">{item.quantidade} unidades em estoque</p>
                   </div>
                   <div className="remove"><button onClick={()=>{removerProduto(item.id)}}>Remover</button></div>
                 </Products>
