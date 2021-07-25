@@ -1,0 +1,119 @@
+
+.container {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  margin: auto;
+  padding-top: 15px;
+  justify-content: space-around;
+  align-items: center;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 400;
+  border-top: 1px solid #f5f5f5;
+}
+.section {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+.author {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  border-top: 1px solid #f5f5f5;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: auto;
+  text-align: center;
+  align-items:center;
+}
+.subsection {
+  width:33%;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  margin-inline:auto;
+  padding-left: 30px;
+  border-right: 1px solid #f5f5f5;
+}
+.subsection div{
+  display: flex;
+    align-items: center;
+}
+.subsection img{
+  margin: 5px;
+}
+.icon {
+  width:30px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ffeb28;
+  color: #232323;
+  transition: all .3s ease 0s;
+  margin-right: 10px;
+}
+.button:hover, .icon:hover {
+  background-color: #e51a73;
+  color: #fff;
+}
+section {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+section div{
+  padding-bottom: 10px;
+}
+input {
+  width: 100%;
+  height: 30px;
+  padding: 5px 15px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-radius: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  }
+  .button {
+    width: 45px;
+    height: 52px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: 0 0;
+    color: #818181;
+    transition: all .5s;
+    cursor: pointer;
+    }
+    .socialIcon {
+      justify-content: center;
+      width:30px;
+      height: 30px;
+      border-radius: 15px;
+      border: none;
+      background-color: #e51a73;
+      color: #fff;
+      transition: all .3s ease 0s;
+      margin: 10px;
+      cursor:pointer;
+    }
+    .socialIcon:hover {
+      background-color: #ffeb28;
+      color: #232323;
+    }
+    h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px!important;
+    font-weight: 500!important;
+    color: #232323!important;
+    }

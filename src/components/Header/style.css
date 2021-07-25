@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap')
+}
+
+.container{  
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+option{
+  padding-top: 100px;
+}
+.header {
+  display: flex;
+  border-bottom: 1px solid #e6e6e6;    
+  width: 100%;
+  margin: auto;
+}
+.hidden {
+  display: none;
+  padding-top: 20px;
+}
+.hidden:hover{
+  display: flex;
+    flex-direction: column;
+    position:absolute;
+}
+#profile:hover ~ .hidden{
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+}
+.menu {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.menu a {
+  text-decoration: none;
+  padding: 2vh;
+  color: #333;
+  font-size: 16px!important;
+}
+.menu a:hover {
+  color: #666666
+}
+.content{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding: 2vh;
+}
+.content-last{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding: 2vh;
+  justify-content: flex-end;
+}
+.content-last a, span, select {
+  text-decoration: none;
+  color: #666666;
+  margin: 2px;
+}
+
+#center {
+  justify-content: center;
+}
+
+.content a, span, select {
+  text-decoration: none;
+  color: #666666;
+  margin: 2px;
+}
+.content div {
+  padding: 1vh;
+}
+.content select {
+  border: none;
+}
+.border {
+  padding-inline: 5vh;
+  border-right: 1px solid #e6e6e6;
+}
